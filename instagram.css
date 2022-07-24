@@ -53,6 +53,7 @@ main {
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
+/* background-origin background-clip */
 .story-wrapper .story-off {
   width: 13vw;
   max-width: 80px;
@@ -74,4 +75,115 @@ main {
   margin-top: 10%;
   margin-bottom: 0%;
   font-size: 12px;
+}
+.left-wrapper {
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.right-wrapper {
+  margin-right: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.post-wrapper {
+  border-bottom: 1px solid lightgrey;
+}
+.post-header {
+  margin: 1% 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.post-header .left-wrapper img {
+  width: 7vw;
+  height: 7vw;
+  max-width: 3rem;
+  max-height: 3rem;
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  margin: 0 2%;
+}
+.post-header .left-wrapper p {
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 14px;
+}
+.post-body img {
+  width: 100%;
+}
+.post-body .post-icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1%;
+}
+.post-body .post-icons-wrapper .left-wrapper img {
+  margin: 2% 4%;
+  width: 14%;
+}
+.post-body .post-icons-wrapper .right-wrapper img {
+  margin: 2% 4%;
+  width: 11%;
+}
+.post-footer {
+  padding-left: 2%;
+}
+.post-footer .post-like-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.post-footer .post-like-wrapper img {
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin: 0 1%;
+}
+.post-footer .post-like-wrapper p {
+  margin-bottom: 2%;
+  margin-top: 2%;
+  font-size: 14px;
+}
+.post-footer .post-content-wrapper {
+  display: flex;
+}
+.post-footer .post-content-wrapper .post-author {
+  margin: 0% 2% 0% 2%;
+  font-weight: bold;
+  font-size: 14px;
+}
+.post-footer .post-content-wrapper .post-content {
+  margin: 0%;
+  font-size: 14px;
+}
+.post-footer .post-time {
+  color: gray;
+  font-size: 10px;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  max-width: 720px;
+  border-top: 1px solid lightgray;
+  background-color: white;
+}
+footer #icon-wrapper {
+  margin: 4% 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer #icon-wrapper img {
+  width: 6%;
 }
